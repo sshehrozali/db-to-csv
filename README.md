@@ -15,4 +15,6 @@
     alt="students-database-management">link.</a></p>But you can always change fieldnames for your own .db file.The script opens .db file in <i>DATABASE</i> folder
     inside <i>DB-to-CSV</i> folder and reads sqlite3 database and stores inside a memory at a particular address.Now another variable is used to fetch all data
     inside database and stores in the form of nested list.Now another CSV file is opened as <i>csvfile</i> and <i><csv_writer</i> object is created to write rows
-    inside .CSV file and fieldnames
+    inside .CSV file and fieldnames.
+    <br>
+    After writing all rows successfully the program prints a success message on the terminal window.
