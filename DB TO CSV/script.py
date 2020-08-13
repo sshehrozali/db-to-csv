@@ -8,13 +8,13 @@ print("\n\n--| DB TO CSV FILE GENERATOR |--")
 print("--------------------------------\n")
 print("Do you want to generate .csv file?\n")
 
-# Connection to sqlite3 database file
+# Define connection to your sqlite3 database [CHANGE FILENAME HERE]
 connection = sqlite3.connect("DATABASE/students.db")
 
 # Cursor to connect to database
 cursor = connection.cursor()
 
-# Select all data from database file
+# Select all data from database file [CHANGE TABLE NAME HERE]
 database = cursor.execute("SELECT * from students")
 
 # Keep prompting till valid input
@@ -37,7 +37,7 @@ while (True):
         # Fetch all data as nested Lists
         students_data = database.fetchall()
 
-        # Create fieldnames for CSV file
+        # Create fieldnames for CSV file [CHANGE FIELD NAMES HERE]
         fieldnames = ["ID", "First", "Middle", "Last", "Age", "Class", "Father's Name", "Phone Number"]
 
         # Declare filename for CSV file
