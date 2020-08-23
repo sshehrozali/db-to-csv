@@ -3,7 +3,7 @@
 <h3>What is .DB file?</h3>
     <p>DB file stands for database file.A database file is a file which contains all data relevant to your program stored in a form of table containing rows and
     columns just like MS Excel spreadsheets or Google Sheets.Generally database files are used to store data to keep quering and using data for different tasks
-     and purposes.Mostly Database files are written in SQL (Structured Query Language). This program works only with sqlite3 .db file</p>
+     and purposes.</p>
      
 <h3>What is .CSV file?</h3>     
   <p>CSV file stands for comma-separated values which is a method used to separate one field with another with the help of comma(,).This file is also used to store
