@@ -1,4 +1,4 @@
-<h1>.DB file to .CSV file (Python and SQLite3)</h1>
+<h1>Python and SQLite3 database</h1>
 
 <h3>What is .DB file?</h3>
     <p>DB file stands for database file.A database file is a file which contains all data relevant to your program stored in a form of table containing rows and
